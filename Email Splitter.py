@@ -7,6 +7,6 @@ userName = email[:email.index("@")]
 domainName = email[email.index("@")+1:]
 
 #Using '.format()' for more effecient formatting
-output = "Username: '{}'    Password: '{}'".format(userName,domainName)
+output = "Username: '{}'    Domain: '{}'".format(userName,domainName)
 
 print(output)
