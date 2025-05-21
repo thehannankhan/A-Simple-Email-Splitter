@@ -6,7 +6,7 @@ userName = email[:email.index("@")]
 # Cut after the '@' Symbol
 domainName = email[email.index("@")+1:]
 
-#Using '.format()' for more effecient formatting
+#Using '.format()' for more effecient formatting.
 output = "Username: '{}'    Domain: '{}'".format(userName,domainName)
 
 print(output)
